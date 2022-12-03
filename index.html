@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page__body page-body">
+  <h1 class="visually-hidden">Тестовое задание</h1>
+  <article class="page-body__statistics statistics">
+    <div class="page-body__diagram diagram">
+      <h2 class="visually-hidden">Статистика чего-то</h2>
+      <div class="diagram__text-wrapper">
+        <p class="diagram__percent">72.<sup>%</sup><sub>7</sub></p>
+        <p class="diagram__percent-description">Лояльность</p>
+        <p class="diagram__indicator">ниже среднего</p>
+        <p class="diagram__indicator-description">по отрасли: FMCG<br> значений слева от медианы<br> 52.0% - 83.1%</p>
+        <p class="diagram__indicator-dynamics diagram__indicator-dynamics--up">3.1</p>
+      </div>
+      <svg width="300" height="300">
+        <g transform="translate(135 0)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="38.095" height="46.598" viewBox="-0.3 0 10.079 12.329"><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M473.452 610.624h28.571v-34.949h-28.571z"/></clipPath></defs><g clip-path="url(#a)" style="opacity:1" transform="matrix(.35278 0 0 -.35278 -167.323 215.415)"><path d="M0 0a1.959 1.959 0 0 1-1.796-2.737c.179-.408.463-1.249.463-1.985v-28.891a1.335 1.335 0 1 1 2.669 0v28.891c0 .736.283 1.577.459 1.985A1.958 1.958 0 0 1 0 0" style="fill:#CCCCCC;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="translate(475.41 610.624)"/><path d="M0 0c-.27-.368-.267-.863.008-1.198a31.766 31.766 0 0 1 4.397-4.395c1.255-1.025-.381-1.772-.748-1.928-7.47-3.191-14.934 3.485-22.399 1.452v15.76c7.477 2.034 14.953-4.671 22.43-1.439.365.156.698.118.859-.128.16-.244.12-.664-.103-1.075A63.255 63.255 0 0 0 0 0" style="fill:#CCCCCC;fill-opacity:1;fill-rule:nonzero;stroke:none" transform="translate(497.152 596.974)"/></g></svg>
+        </g>
+        <circle class="circle" fill="none" stroke="#ECECEC" stroke-width="7" stroke-dasharray="621 91" stroke-linecap="round" cx="160" cy="150" r="110"></circle>
+        <circle class="circle" id="yellow" fill="none" stroke="#70A84B" stroke-width="10" stroke-dasharray="0 722" stroke-dashoffset="2" stroke-linecap="round" cx="160" cy="150" r="110">
+          <animate attributeName="stroke-dasharray" values="422 300" dur="0.8" fill="freeze"></animate>
+        </circle>
+        <circle class="circle" fill="none" stroke="#FCD329" stroke-width="10" stroke-dasharray="0 722" stroke-dashoffset="2" stroke-linecap="round" cx="160" cy="150" r="110">
+          <animate attributeName="stroke-dasharray" values="222 500" dur="0.8" fill="freeze"></animate>
+        </circle>
+      </svg>
+    </div>
+    <ul class="statistics__list statistics-list">
+      <li class="statistics-list__item">
+        <dl class="statistics-list__description-list">
+          <dt class="statistics-list__description-termin">
+            <h3 class="statistics-list__header">Промоутеры</h3>
+          </dt>
+          <dd class="statistics-list__description-description">
+            <p class="statistics-list__description-percent">32.%</p>
+            <p class="statistics-list__description-amount">81</p>
+          </dd>
+        </dl>
+        <div class="statistics-bar bar bar--promoters">
+          <p class="bar__info">+1.2%</p>
+          <div class="bar__top-scale"></div>
+          <div class="bar__bottom-scale"></div>
+        </div>
+      </li>
+      <li class="statistics-list__item">
+        <dl class="statistics-list__description-list">
+          <dt class="statistics-list__description-termin">
+            <h3 class="statistics-list__header">Скептики</h3>
+          </dt>
+          <dd class="statistics-list__description-description">
+            <p class="statistics-list__description-percent">39.1%</p>
+            <p class="statistics-list__description-amount">8</p>
+          </dd>
+        </dl>
+        <div class="statistics-bar bar bar--skeptics">
+          <p class="bar__info">+4.8%</p>
+          <div class="bar__top-scale"></div>
+          <div class="bar__bottom-scale"></div>
+        </div>
+      </li>
+      <li class="statistics-list__item">
+        <dl class="statistics-list__description-list">
+          <dt class="statistics-list__description-termin">
+            <h3 class="statistics-list__header">Критики</h3>
+          </dt>
+          <dd class="statistics-list__description-description">
+            <p class="statistics-list__description-percent">79.8%</p>
+            <p class="statistics-list__description-amount">7</p>
+          </dd>
+        </dl>
+        <div class="statistics-bar bar bar--critics">
+          <p class="bar__info">-9.7%</p>
+          <div class="bar__top-scale"></div>
+          <div class="bar__bottom-scale"></div>
+        </div>
+      </li>
+    </ul> 
+  </article>
+</body>
+</html>
