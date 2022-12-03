@@ -58,7 +58,7 @@
 .circle {
   transform: rotate(-72deg);
   transform-origin: center;
-  transition: all 1s ease 0s;
+  transition: stroke-dasharray 1s ease 0s;
 }
 
 /* Diagram */
